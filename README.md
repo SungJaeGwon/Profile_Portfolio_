@@ -21,8 +21,6 @@
 ### Main
 
     * 영문 이름 : 정가운데 크게 SVGTEXT 그려지는 효과 넣기
-        -> https://ordinary-code.tistory.com/25 : 좌표따서 만들기
-        -> https://chpofo.tistory.com/47 : 일러스트로 svg 만들기
 
     * 핵심 타이틀 문구(About Me) : 타이핑 css 넣기
         예시)
@@ -39,10 +37,7 @@
         #React #책임감 #열정 #ESTJ #하드코딩 #긍정적인 마인드
         권성재 더 알아보기 화살표이미지
 
-        글씨 자동타이핑
-        -> https://hyoe-it.tistory.com/35
-        -> https://velog.io/@reasonz/2022.07.27-%EB%A6%AC%EC%95%A1%ED%8A%B8%EB%A1%9C-%ED%83%80%EC%9D%B4%ED%95%91-%ED%9A%A8%EA%B3%BC-%EB%A7%8C%EB%93%A4%EA%B8%B0
-        -> https://wazacs.tistory.com/35
+        글씨 자동타이핑 구현
 
 
 
@@ -50,11 +45,11 @@
         - 호버 시 밑줄이 가운데에서 양옆으로 나뉘도록 구현
         - 왼쪽은 이미지 넣고 오른쪽에 글자 글자는 위에는 이름이나 생년월일 같은거 아래줄은 해당입력 2줄로 배치
         이름,
-        생년월일, <i class="fa fa-birthday-cake"></i>
+        생년월일,
         주소,
         이메일,
         전화번호,
-        이력서 다운로드(다운로드를 어캐 받게 하지...)
+        이력서 다운로드
 
     * SKILLS 사용가능한 기술 이미지 로고만 정리하기
         - 스크롤할때 좌우에서 가운데로 나오도록 패럴록스 구현
@@ -66,16 +61,7 @@
         [DATEBASE] : MySQL MariaDB
         [Tool] : VisualStudio Code  ECLIPSE
 
-        AXIOS
-        AJAX
-        WAS : Apache Tomcat 8.0
-
-    * 교육 수료 내용 : 그린 한글문서 보면서 수료내용 간단 정리
-        - 교육 시작 및 종료일자
-        - 교육과정 : [스마트웹&콘텐츠개발] 풀스텍(프론트엔드&백엔드)자바(JAVA)IT개발자(혼합)A 정규과정
-        - 교육내용 : ul > li 로 왼쪽은 개발 프로그램 오른쪽은 내용 기술
-
-    * 포트폴리오 : 뽀로로몰, 이니스프리, 마켓컬리 클론코딩
+    * 포트폴리오 : 뽀로로몰, 이니스프리,
     PORTFOLIO 주제 글자가 최상단 가운데 제일 크게 배치
     클론코딩 부주제 PORTFOLIO 아래 작게 배치
 
@@ -222,9 +208,6 @@
         상태변수 배열 값은 .map()로 html태그에 렌더링 및 각종 이벤트 구현
         페이지 이동 간 navigate 및 Link 활용
 
-<span>텍스트 background 애니메이션 infinite 구현</span>
-<span>마우스 호버 시 이미지 변화 및 다양한 시작적 효과 구현</span>
-
         Intro
         - Swiper.Js : 인트로 메인슬라이드를 포함한 모든 슬라이드에 페이지네이션 및 프로그래바 적용,
         - tab메뉴 클릭 시 매개변수 전달하여 파라미터와 상태변수 활용
@@ -292,55 +275,3 @@
         - 장바구니에서 상품 이미지 누르면 다시 해당 상품의 상세페이지로 이동 가능
         - 동일한 상품을 다시 장바구니에 담을 경우 필터링 이용, 기존 장바구니 상품에서 수량만 합산되도록 구현
         - 로그인 후 장바구니에 담을 경우 장바구니 해당 고객의 DB에 장바구니 목록이 저장되며, 추후 다시 로그인 시 고객의 장바구니 목록을 가져올 수 있도록 구현
-
-
-    배포주소 사이트는 도메인을 보여주는 것아 아니라 버튼에 '웹사이트보기'로 텍스트 넣고 호버 시
-    https://codepen.io/matchboxhero/pen/WZaObN?editors=1100 이거 참고해서 파란색 배경은 오른쪽에서 왼쪽으로 조금만 나오게 하고 글자는 GO!로 보이도록 설정하기
-    위에 실패하면 이것도 좋을 듯
-    https://codepen.io/matchboxhero/pen/EwdmmP?editors=1100
-
-
-
-    * 참고 사이트
-    https://cdg-portfolio.com/  -> 포트폴리오 레이아웃
-    https://weaklion.github.io/React-PortFolio/ -> 포트폴리오 레이아웃
-    https://www.nykim.net/ -> 포트폴리오 레이아웃
-    https://codepen.io/matchboxhero/pen/XeEYyy?editors=1100 -> 글자강조 효과 = 헤더에서 적용됨
-    https://codepen.io/matchboxhero/pen/WZaObN?editors=1100 -> 그...오른쪽아래에서 배경 커지면서 글자보이는 효과
-    https://codepen.io/matchboxhero/pen/EwdmmP?editors=1100 -> 화살표 이미지 2개 슬라이드 효과
-    https://www.w3schools.com/icons/icons_reference.asp -> w3school-icon
-    https://recoderr.tistory.com/47 -> 웹팩 설치 및 에러
-    https://carina16.tistory.com/51 -> 마지막 꺼 효과는 써먹을 수 있을 듯
-    https://blog.naver.com/mayday_1004/223035013403 -> 그라데이션 효과넣기
-    https://codingbroker.tistory.com/128 -> 오른쪽에 스크롤바 점3개 그런거 페이지네이션? 스크롤 이벤트
-    https://lpla.tistory.com/107 -> 스크롤트리거 가로슬라이드 등 애니메이션
-    https://webstoryboy.co.kr/ -> 이거 나중에 사이트 함 공부해보기
-    https://www.youtube.com/watch?v=_rAAY_Zp4FI&ab_channel=webstoryboy -> GSAP 유튜브 강의
-    https://velog.io/@ahrkwltlarh/Library-React-gsap -> 텍스트박스 옆에서 들어오기
-    https://sunnykim91.tistory.com/131 -> 한국어/영어 번역하기
-    https://poiemaweb.com/js-closure ->  클로저 참고
-    https://kwangsunny.tistory.com/39 -> setTimeout으로 숫자 10000까지 올라가는거 보이기 참고
-    https://blog.naver.com/doredome/222593783596 -> 면접질문 여기도 참고하기
-
-### 면접 최대 질문 및 기본 파일 업로드
-
-    * 깃허브 오토 포메팅으로 리드미파일 업로드하기
-    * 면접질문
-        - 브라우저 동작방식
-        - ES6 문법과 ES5 문법의 차이점
-        - 기본 데이터형태의 프로토 타입 메소드
-        - 호이스팅 및 스코프 개념
-        - HTTP 통신 메소드 및 상태코드
-        --> 신입으로서 전문적인 대답도 좋지만 기존 개발자들과 소통할 수 있는 정도만 되도 좋다
-        - https://brunch.co.kr/@skykamja24/322 보고 GET요청과 POST 요청의 차이점 알기
-
-        - 추가로 다른 지원자들과의 판별력을 위하여 Authorization, typesctript, 대표적인 라이브러리 사용경험에 대해 설명할 수 있는지가 중요
-        - display에서 block과 inline의 차이점
-        - DB에서 서버프레임워크별 특장점이나 주의점
-
-    * 면접대표질문
-    https://realmojo.tistory.com/300
-    https://sunnykim91.tistory.com/121
-    https://sunnykim91.tistory.com/136 : 프론트엔드가 실무에서 하는 역할
-
-        --> 솔직히 신입으로써 아직은 학원에서 배운코딩을 조금 바꿔서 재사용하거나 유튜브나 웹 검색을 통해 새로운 코딩을 접목시켜보고 구현하는 단계이므로 제가 스스로 직접 코딩을 개발하는 단계는 아직 힘들다고 생각합니다. 하지만, 새로운 방법을 접할 때 마다 이걸 왜 이렇게 했는지? 혹은 어떻게 구현했는지 깨닫고 노트에 다시 기록해보는 것이 굉장히 중요하다고 생각합니다. 왜냐하면 업무를 볼 때 이전과 똑같은 코딩을 재사용하게 되더라도 이전 파일을 보고 그냥 그대로 복사붙여넣기 할것인지? 아니면 제가 기억하고 깨달은 대로 시도하고 부딪혀보다가 정말 마지막에 이전 코딩을 다시 참고할 것인지는 현재 작업속도는 더딜 수 있으나 장기적으로는 제 실력향상에 분명 큰 차이가 있을 것이라고 확신합니다.
